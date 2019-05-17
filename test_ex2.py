@@ -23,6 +23,3 @@ class Exercice_2_test_case(unittest.TestCase):
     def test_borne(self):
         self.assertRaises(ValueError, exercice_2, 5, 3, 2)
         self.assertRaises(ValueError, exercice_2, -5, 0, 2)
-
-if __name__ == '__main__':
-    unittest.main(argv=['first-arg-is-ignor'], exit=False)
